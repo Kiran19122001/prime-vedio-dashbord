@@ -1,0 +1,45 @@
+.thumbNail {
+    height: 150px;
+    width: 215px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+    .thumbNail {
+        height: 150px;
+        width: 254px;
+    }
+}
+
+.pop-up-cont {
+    background-color: #ffffff;
+    width: 750px;
+    height: 460px;
+    border-radius: 16px;
+}
+
+.modal-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.close-btn {
+    align-self: flex-end;
+    background-color: transparent;
+    height: 28px;
+    width: 28px;
+    border: none;
+    margin-top: 18px;
+    margin-right: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.react-player {
+    margin: 12px 48px 48px 48px;
+}

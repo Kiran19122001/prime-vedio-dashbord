@@ -1,0 +1,28 @@
+.prime-img {
+    height: 300px;
+    width: 100%;
+}
+
+.main-cont {
+    min-height: 100vh;
+    padding-bottom: 32px;
+    background-color: #000;
+}
+
+.heading {
+    color: #fff;
+}
+
+.movies-cont {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .movies-cont {
+        max-width: 1110px;
+    }
+}
